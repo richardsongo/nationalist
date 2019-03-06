@@ -6,3 +6,6 @@
 h1, h2, h3, h4, h5 { color: #205493;}
 
 a { color: #205493;}
+
+  h1, h2, h3, h4, h5 { font-family: 'Merriweather', serif; }
+	body               { font-family: 'Source Sans Pro', sans-serif; }
