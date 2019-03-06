@@ -55,186 +55,42 @@
 
 <body class="home">
 
+<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-	<!-- SEARCH START DISABLED -->
-
-  <div class="search-feature float-right">
-  
-	  
-    <form class="usa-search" id="searchgovform" action="/search-results/">
-      <label class="usa-sr-only" for="searchgovinput">Search medium</label>
-      <input name='search' type='search' id="searchgovinput">
-
-      <button type="submit" id="searchgovbutton">
-         <span class="usa-search-submit-text">Search</span>
-      </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
-	  
-	  
   </div>
-
- <!--SEARCH END -->
-
-
-  <div class="usa-nav-container nav ">
-    <div class="usa-navbar">
-	    
-      <button class="usa-menu-btn">&#9776;</button>
-	    
-      <div class="usa-logo" id="logo">
-	      
-        <em class="usa-logo-text">
-          <a href="/" accesskey="1" title="Home" aria-label="Home">
-          
-            <img src="/assets/img/logo-main-fedramp.png" alt="FedRAMP.gov">
-          
-          </a>
-        </em>
-	      
-      </div>
-    </div>
-	  
-	  
-    <nav role="navigation" class="navbar-nav ml-auto">
-	    
-   
-      <ul class="nav">
-          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-          <li tabindex="0" class="parent nav-item dropdown">
-	
-	<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About Us</a>
-
-            <ul class="dropdown-menu">
-              <!-- 2nd level -->
-              
-              <li class="dropdown-item">
-                <a tabindex="0" href="/about/">
-                  Program Overview
-                </a>
-              </li>
-              
-              <li class="dropdown-item">
-                <a tabindex="0" href="/governance/">
-                  Governance
-                </a>
-              </li>
-              
-              <li class="dropdown-item">
-                <a tabindex="0" href="/team/">
-                  Meet the Team
-                </a>
-              </li>
-              
-            </ul>
-		  
-          </li>
-	  <li tabindex="0" class="nav-item dropdown">
-	
-	<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Partners We Serve</a>
-            <ul class="dropdown-menu">
-              <!-- 2nd level -->
-              
-              <li class="dropdown-item">
-                <a tabindex="0" href="/federal-agencies/">
-                  Federal Agencies
-                </a>
-              </li>
-              
-              <li class="dropdown-item">
-                <a tabindex="0" href="/cloud-service-providers/">
-                  Cloud Service Providers
-                </a>
-              </li>
-              
-              <li class="dropdown-item">
-                <a tabindex="0" href="/assessors/">
-                  Assessors
-                </a>
-              </li>
-              
-            </ul>
-          </li>
-      
-     
-<li tabindex="0" class="nav-item dropdown">
-	
-	<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Resources</a>
-
-            <ul class="dropdown-menu">
-              <!-- 2nd level -->
-              
-              <li class="dropdown-item">
-                <a tabindex="0" href="/documents/">
-                  Documents
-                </a>
-              </li>
-              
-              <li class="dropdown-item">
-                <a tabindex="0" href="/templates/">
-                  Templates
-                </a>
-              </li>
-              
-              <li class="dropdown-item">
-                <a tabindex="0" href="/nist-publications/">
-                  NIST Publications
-                </a>
-              </li>
-              
-              <li class="dropdown-item">
-                <a tabindex="0" href="/training/">
-                  Training
-                </a>
-              </li>
-              
-              <li class="dropdown-item">
-                <a tabindex="0" href="/faqs/">
-                  FAQs
-                </a>
-              </li>
-              
-              <li class="dropdown-item">
-                <a tabindex="0" href="/tips-cues/">
-                  Tips & Cues
-                </a>
-              </li>
-              
-            </ul>
-          </li>
-      
-        
-      
-      
-      
-        
-<li tabindex="0" class="nav-item dropdown">
-	
-	<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Get Authorized</a>
-
-            <ul class="dropdown-menu">
-              <!-- 2nd level -->
-              
-              <li class="dropdown-item">
-                <a tabindex="0" href="/jab-authorization/">
-                  JAB Authorization
-                </a>
-              </li>
-              
-              <li class="dropdown-item">
-                <a tabindex="0" href="/agency-authorization/">
-                  Agency Authorization
-                </a>
-              </li>
-              
-            </ul>
-          </li>
-          <li  class="nav-item">
-          
-            <a class="nav-link" href="/blog/">Blog</a>
-          </li>
-         </ul>
-    </nav>
-  </div>
+</nav>
 </header>
 
 	
