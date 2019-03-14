@@ -27,7 +27,7 @@ a { color: #205493;}
     text-decoration: none;
 }
 
-media screen and (min-width: 951px){
+@media screen and (min-width: 951px){
 .nav-primary  .nav-item  a.nav-link {
     color: #5b616b;
     font-size: 1.5rem;
