@@ -9,3 +9,13 @@ a { color: #205493;}
 
   h1, h2, h3, h4, h5 { font-family: 'Merriweather', serif; }
 	body               { font-family: 'Source Sans Pro', sans-serif; }
+
+
+.section-hero {
+    /*padding-top: 3rem;
+    padding-bottom: 3rem;*/
+    /*background-image: url(../img/homepage_images/newhero2_v2 JPG.jpg);*/
+    background-image: url(https://www.performance.gov/img/homepage_images/newhero2_v2%20JPG.jpg);
+    background-position: center;
+    background-size: cover;
+}
