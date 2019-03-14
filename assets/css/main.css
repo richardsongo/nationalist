@@ -19,19 +19,19 @@ a { color: #205493;}
 }
 
 .nav-primary a.nav-link {
-    border: none;
+    /*border: none;*/
     color: #212121;
-    display: block;
+    /*display: block;*/
     font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-    line-height: 1.3;
-    text-decoration: none;
+    /*line-height: 1.3;*/
+    /*text-decoration: none;*/
 }
 
 @media screen and (min-width: 951px){
 .nav-primary  .nav-item  a.nav-link {
     color: #5b616b;
-    font-size: 1.5rem;
+    /*font-size: 1.5rem;*/
     font-weight: 700;
-    line-height: 1.2;
+    /*line-height: 1.2;*/
 }
 }
