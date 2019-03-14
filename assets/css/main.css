@@ -18,7 +18,7 @@ a { color: #205493;}
     background-size: cover;
 }
 
-.nav-primary a {
+.nav-primary a.nav-link {
     border: none;
     color: #212121;
     display: block;
@@ -28,7 +28,7 @@ a { color: #205493;}
 }
 
 media screen and (min-width: 951px){
-.nav-primary  li  a {
+.nav-primary  .nav-item  a.nav-link {
     color: #5b616b;
     font-size: 1.5rem;
     font-weight: 700;
